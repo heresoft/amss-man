@@ -1,4 +1,6 @@
 import main_window as mw
 
-window = mw.MainWindow()
-window.run()
+
+if __name__ == "__main__":
+    window = mw.MainWindow()
+    window.run()
